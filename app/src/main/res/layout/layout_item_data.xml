@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/colorPrimary"
+              android:orientation="horizontal" tools:showIn="@layout/activity_main">
+    <TextView
+            android:id="@+id/c1"
+            android:layout_width="80dp" android:layout_height="50dp"
+              android:gravity="center"
+              android:text="语文"/>
+    <TextView android:layout_width="80dp" android:layout_height="50dp"
+              android:gravity="center"
+              android:id="@+id/c2"
+              android:text="数学"/>
+    <TextView android:layout_width="80dp" android:layout_height="50dp"
+              android:gravity="center"
+              android:id="@+id/c3"
+              android:text="英文"/>
+    <TextView android:layout_width="80dp" android:layout_height="50dp"
+              android:gravity="center"
+              android:id="@+id/c4"
+              android:text="法语"/>
+    <TextView android:layout_width="80dp" android:layout_height="50dp"
+              android:gravity="center"
+              android:id="@+id/c5"
+              android:text="德语"/>
+    <TextView android:layout_width="80dp" android:layout_height="50dp"
+              android:gravity="center"
+              android:id="@+id/c6"
+              android:text="日文"/>
+    <TextView android:layout_width="80dp" android:layout_height="50dp"
+              android:gravity="center"
+              android:id="@+id/c7"
+              android:text="地理"/>
+    <TextView android:layout_width="80dp" android:layout_height="50dp"
+              android:gravity="center"
+              android:id="@+id/c8"
+              android:text="历史"/>
+</LinearLayout>
