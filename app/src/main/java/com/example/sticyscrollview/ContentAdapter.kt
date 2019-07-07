@@ -29,7 +29,7 @@ class ContentAdapter(val context:Context):RecyclerView.Adapter<RecyclerView.View
 
 
     override fun getItemCount(): Int {
-        return 20 
+        return 20
     }
 
     inner class ViewHolder(override val containerView: View):RecyclerView.ViewHolder(containerView), LayoutContainer{
